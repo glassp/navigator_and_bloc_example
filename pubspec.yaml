@@ -1,0 +1,15 @@
+name: navigator_and_bloc_example
+description: An example app showing how to use the new Pages API of Navigator 2.0 with BloC
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+
+flutter:
+  uses-material-design: true
