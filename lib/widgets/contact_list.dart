@@ -20,15 +20,7 @@ class ContactListView extends StatelessWidget {
           for (var contact in ContactRepository().getAllContacts())
             ListTile(
               onTap: () {
-                // this will trigger a rerender of the Navigator
-                var bloc = BlocProvider.of<NavigationBloc>(context);
-                bloc.add(NavigationEvent(
-                  CupertinoPage(
-                    name: "/details/${contact.hashCode}",
-                    key: ValueKey(contact.phoneNumber),
-                    child: ContactDetailView(contact),
-                  ),
-                ));
+                // TODO trigger navigation
               },
               isThreeLine: true,
               leading: Icon(Icons.account_circle),
