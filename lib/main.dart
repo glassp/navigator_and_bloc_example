@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:navigator_and_bloc_example/bloc/navigation.dart';
-import 'package:navigator_and_bloc_example/widgets/contact_list.dart';
+import 'bloc/navigation.dart';
+import 'widgets/contact_list.dart';
 
 void main() {
   runApp(MyApp());

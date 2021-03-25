@@ -1,4 +1,4 @@
-import 'package:navigator_and_bloc_example/models/contact.dart';
+import '../models/contact.dart';
 
 /// This class is a over simplified class which only returns a list of Contacts
 /// Normally it should read from an API, database or something like that
@@ -11,6 +11,4 @@ class ContactRepository {
     Contact("Jon", "Snow", "(359) 857-2873", "jon.snow@nights-watch.westeros"),
     Contact("Sansa", "Stark", "(264) 235-0864", "sansa.stark@gmail.com"),
   ];
-
-
 }

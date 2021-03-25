@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:navigator_and_bloc_example/bloc/navigation.dart';
-import 'package:navigator_and_bloc_example/repository/contact.dart';
-import 'package:navigator_and_bloc_example/widgets/contact_details.dart';
+import '../bloc/navigation.dart';
+import '../repository/contact.dart';
+import 'contact_details.dart';
 
 /// A ListView of Contacts
 class ContactListView extends StatelessWidget {

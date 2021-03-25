@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:navigator_and_bloc_example/models/contact.dart';
+import '../models/contact.dart';
 
 /// The DetailView for the Contact.
 class ContactDetailView extends StatelessWidget {
